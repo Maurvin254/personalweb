@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <header class="header">
+        <a href="Navbar">
+            <a href="#home">HOME</a>
+            <a href="#home">ABOUT ME</a>
+            <a href="#home">SERVICES</a>
+            <A href="#home">CONTACT</A>
+        </nav>    
+    </header>
+    <section id="home" class="home">
+        <div class="content">
+            <hi>Hi, Everyone</hi> 
+            <hi>I'm <span>Ray Maurvin</span></hi>
+            <hi>Fronted, Learning and Skilled developer</hi>
+            <p>Newly fronted Developer without much experience. <br>
+            Practicing to create a website and improve my skills.</p>
+        </div>
+        <div class="image-container">
+            <img src="george.jpg" alt="akolong">
+        </div>
+    </section>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            color:blue;
+            padding-right: 10px;
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 20px;
+            padding-right: 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+            color:blue;
+            font-family: 'Gill sns', 'Gill san MI', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           background-image: url(maurvin.jpg);
+        }
+
+        .mylogo {
+            position: relative;
+            font-size: 25px;
+            color:burlywood;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    .navbar a{
+        position: relative;
+        font-size: medium;
+        color:black;
+        text-decoration: none;
+        font-weight: 700;
+        margin-left: 30px;
+    }
+    .navbar a:hover{
+        color: rgb(55, 0, 255);
+    }
+    .home {
+        position: relative;
+        width: 100%;
+        justify-content: space-between;
+        height: 100vh;
+        background-size: cover;
+        background-position: left;
+        display: grid;
+        align-items: center;
+        background-image:url(ck.jpg);
+        padding: 70px 10px;
+    } 
+    .content {
+        max-width: 600px;
+    } 
+    .content h3 {
+        font-size: 25px;
+        font-weight: 700;
+        color:blue;
+    } 
+    .content h1 {
+        font-size: 50px;
+        font-weight: 700;
+        margin: -3px 0;
+        color: greenyellow;
+    } 
+    span {
+        color:aqua;
+    }
+    .content p{
+        display: inline;
+        justify-content: left;
+        align-items: left;
+        position: relative;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        color: red;
+        text-decoration: none;
+        margin: 30px 15px 30px 0;
+    }
+    .image-container {
+        position: absolute;
+        top: 25%;
+        right: 60px;
+        width: 450px;
+        height: 500px;
+        border-radius: 50%;
+        overflow: cover;
+    }
+    .image-containetr img {
+        width: 80%;
+        height: 100%;
+        object-fit: fill;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+    </style>
+ <div class="card">
+    <h2>
+       scroll now<br>🎼Thank Dj_Chizzie🎶
+    </h2>
+    <button>
+       <a href="#footer">scroll</a>
+    </button>
+</div>
+
+<footer id="footer">
+   <div class="col col1">
+       <h3>FASHION WEARS</h3>
+       <p>
+           Made with 
+           <span style="color: brown;
+           ">❤</span> by  Rayh Maurvin
+       </p>
+
+       <div class="Social">
+           <a href="#" class="link">
+               <i class="fa-brands
+               fa-tiktok fa-instagram"></i>
+           </a>
+           <a href="#" class="link">
+               <i class="fa-brands fa-google"></i>
+           </a>
+           <a class="link">
+               <i class="fa-brands fa-youtube"></i>
+           </a>
+       </div>
+
+       <p style="color: black; font-size: smaller;">
+         2024 © All Rights Reserved
+       </p>
+   </div>
+
+   <div class="col col2">
+    <p>About</p>
+    <p>My Mission</p>
+    <p>Privacy Policy</p>
+    <p>Terms of service</p>
+   </div> 
+
+   <div class="col col3">
+       <p>Services</p>
+       <p>Services</p>
+       <p>Products</p>
+       <p>Join my team</p>
+       <p>Partner with me</p>
+       cursor
+   </div>
+
+   <div class="backdrop"></div>
+</footer>
+<style>
+   @import url('https://use.fontawesome.com/releases/v6.5.1/css/all.css');
+   @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&Display=swap');
+
+   /*tiktok @code The World */
+
+   :root {
+       --base: 4rem;
+   }
+
+   * {
+       box-sizing: border-box;
+       scroll-behavior: smooth;
+   }
+
+   body {
+       background-image: url(ck.jpg);
+       color: beige;
+       font-family: 'Courier New', Courier, monospace;
+       font-weight: 400;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       height: 190vh;
+       margin: 0;
+       font-size: calc(0.3 var(--base));
+   }
+
+   h2 {
+       font-weight: 500;
+       text-align: center;
+       font-size: var(--base);
+       margin: 0;
+   }
+
+   h3 {
+       font-weight: 500;
+       font-size: calc(0.6 * var(--base));
+       margin: 0;
+   }
+
+   .card {
+       height: calc(8 * var(--base));
+       width: calc(12 * var(--base));
+       background: linear-gradient(120deg, #ff8064, #725bd7);
+       color: black;
+       border-radius: calc(0.5 * var(--base));
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       gap: var(--base);
+       position: fixed;
+       margin: calc(2 * var(--base)) calc(5 * var(--base)) calc(5 * var(--base)) calc(5 * var(--base));
+   }
+
+   button {
+       background-color: #000;
+       font-size: calc(0.4 * var(--base));
+       border: none;
+       color: aliceblue;
+       font-family: "IBM Plex Sans";
+       font-weight: 400;
+       padding: calc(0.35 * var(--base)) calc(0.8 * var(--base));
+       border-radius: calc(0.3 * var(--base));
+   }
+
+   footer {
+       margin-top: 80vh;
+       z-index: 500;
+       width: 100%;
+       height: 100vh;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+       align-items: flex-end;
+       padding: 5rem 2vw;
+       position: relative;
+   }
+
+   footer::before {
+       content: '';
+       position: absolute;
+       inset: 0;
+       background: linear-gradient(rgba(0, 0, 0, 0) 5%,
+        rgba(0, 0, 0, 0.3) 20%,
+         rgba(0, 0, 0, 0.6) 30%,
+          rgba(0, 0, 0, 0.8) 40%
+       rgba(0, 0, 0, 1) 50%
+       rgba(0, 0, 0,));
+       z-index: -7;
+   }
+
+   .backdrop {
+       z-index: -5;
+       position: absolute;
+       inset: 0;
+       backdrop-filter: blur(80px);
+       mask-image: linear-gradient(rgba(0, 0, 0, 0),
+       rgba(0, 0, 0, 0.5) 10%,
+       rgba(0, 0, 0, 0.8) 20%,
+       rgba(0, 0, 0, 1) 30%,
+       rgba(0, 0, 0));
+   }
+
+   .col {
+       width: 28%;
+       flex-direction: column;
+       align-items: flex-start;
+       justify-content: flex-start;
+       padding: calc(0.3 * var(--base)) calc(0.8 * var(--base));
+   }
+
+   .col2,
+   .col3 {
+       background-color: #121212;
+       border-radius: calc(0.5 * var(--base));
+   }
+
+   img {
+       height: calc(0.3 * var(--base));
+       object-fit: cover;
+   }
+
+   .social {
+       display: flex;
+       flex-direction: row;
+       justify-content: flex-start;
+       gap: 1rem;
+   }
+
+   .a {
+       text-decoration: none;
+       color: inherit;
+   }
+
+   .link {
+       width: calc(0.8 * var(--base));
+       height: calc(0.8 * var(--base));
+       background-color: rgba(255, 255, 255, 0.1);
+       border-radius: calc(0.1 * var(--base));
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+</style>
+</body>
+</html>
